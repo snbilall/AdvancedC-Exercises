@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Builders;
 
 namespace AdvancedCSharp
 {
@@ -6,7 +6,7 @@ namespace AdvancedCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            StrBuilder.Build();
         }
     }
 }
