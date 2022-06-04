@@ -1,4 +1,4 @@
-﻿using Builders;
+﻿using Reflection;
 
 namespace AdvancedCSharp
 {
@@ -6,7 +6,8 @@ namespace AdvancedCSharp
     {
         static void Main(string[] args)
         {
-            StrBuilder.Build();
+            ReflectionType.Run();
+            Inspection.Run();
         }
     }
 }
