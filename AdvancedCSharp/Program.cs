@@ -6,8 +6,9 @@ namespace AdvancedCSharp
     {
         static void Main(string[] args)
         {
-            ReflectionType.Run();
-            Inspection.Run();
+            //ReflectionType.Run();
+            //Inspection.Run();
+            Construction.Run();
         }
     }
 }
