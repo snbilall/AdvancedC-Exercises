@@ -8,7 +8,8 @@ namespace AdvancedCSharp
         {
             //ReflectionType.Run();
             //Inspection.Run();
-            Construction.Run();
+            //Construction.Run();
+            Invocation.Run();
         }
     }
 }
