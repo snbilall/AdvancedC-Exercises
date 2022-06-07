@@ -30,7 +30,7 @@ namespace Reflection
 
             eventInfo.AddEventHandler(demo, handler);
 
-            demo.MyEvent.Invoke(null, 333);
+            //demo.MyEvent.Invoke(null, 333);
         }
     }
 }
